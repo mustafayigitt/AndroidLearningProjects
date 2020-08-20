@@ -17,5 +17,5 @@ ________________________________________________________________________________
 ### DataBinding Example
    Blog: https://www.mustafayigit.net/android-databinding-nedir-ne-ise-yarar/
   
-   Project: https://github.com/mustafayigitt/AndroidLearningProjects-/tree/master/MeetAt
+   Project: https://github.com/mustafayigitt/AndroidLearningProjects/tree/master/DatabindingExample
 _______________________________________________________________________________________________________________________
