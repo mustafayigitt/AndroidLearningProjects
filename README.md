@@ -19,3 +19,8 @@ ________________________________________________________________________________
   
    Project: https://github.com/mustafayigitt/AndroidLearningProjects/tree/master/DatabindingExample
 _______________________________________________________________________________________________________________________
+### Generic ListAdapter For Recyclerview & Viewpager
+   Blog: https://mustafayigitt.medium.com/generic-listadapter-with-kotlin-write-once-use-more-recyclerview-viewpager-6314cbdced36
+  
+   Project: https://github.com/mustafayigitt/AndroidLearningProjects/tree/master/GenericListAdapter
+_______________________________________________________________________________________________________________________
