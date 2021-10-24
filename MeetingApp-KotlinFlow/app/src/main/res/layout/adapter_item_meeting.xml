@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="meeting"
+            type="com.mustafayigit.meetat.model.Meeting" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgMeetingCover"
+                loadImage="@{meeting.coverUrl}"
+                android:layout_width="match_parent"
+                android:layout_height="150dp" />
+
+            <TextView
+                android:id="@+id/txtMeetingDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_margin="8dp"
+                android:background="@drawable/background_rounded"
+                android:text="@{meeting.date + '\n' + meeting.location}"
+                android:textColor="@color/secondaryTextColor" />
+
+            <TextView
+                android:id="@+id/txtMeetingOrganization"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="8dp"
+                android:background="@drawable/background_rounded"
+                android:text="@{meeting.organization}"
+                android:textColor="@color/secondaryTextColor" />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/txtMeetingName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/primaryTextColor"
+            android:text="@{meeting.name}"
+            android:textAlignment="center"
+            android:textColor="@color/secondaryTextColor" />
+
+    </LinearLayout>
+</layout>
