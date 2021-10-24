@@ -7,12 +7,12 @@ I am developing myself on mobile software and that's why I created this repo. Th
 ### Navigation Component
    Blog: https://www.mustafayigit.net/navigation-component-incelemesi-android-jetpack-library/
   
-   Project: https://github.com/mustafayigitt/AndroidLearningProjects-/tree/master/NavigationComponentExample
+   Project: https://github.com/mustafayigitt/AndroidLearningProjects/tree/master/NavigationComponentExample
 _______________________________________________________________________________________________________________________
 ### Recyclerview Using
    Blog: https://www.mustafayigit.net/android-kotlinde-recyclerview-kullanimi/
   
-   Project: https://github.com/mustafayigitt/AndroidLearningProjects-/tree/master/RecyclerviewExample
+   Project: https://github.com/mustafayigitt/AndroidLearningProjects/tree/master/RecyclerviewExample
 _______________________________________________________________________________________________________________________
 ### DataBinding Example
    Blog: https://www.mustafayigit.net/android-databinding-nedir-ne-ise-yarar/
